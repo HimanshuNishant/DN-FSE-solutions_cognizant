@@ -1,0 +1,11 @@
+(1) Understand Recursive Algorithms:
+
+Q. Explain the concept of recursion and how it can simplify certain problems.
+
+Recursion is a programming technique where a function calls itself to solve a problem  by breaking it down into smaller subproblems.
+Components of Recursion:
+Base Case – Stops the recursion.
+Recursive Case – Function calls itself with smaller input.
+Call Stack – Manages function calls and returns.
+
+
