@@ -1,0 +1,27 @@
+1.	Understand Recursive Algorithms:
+
+Q) Explain the concept of recursion and how it can simplify certain problems.
+=> Recursion is a programming technique where a method calls itself to solve a problem. It is useful for problems that can be broken down into smaller, similar subproblems.
+
+   Components of Recursion:
+   Base Case: The condition under which the recursion stops.
+
+   Recursive Case: The part where the function calls itself with a modified argument.
+
+   Why it simplifies problems:
+   Recursive solutions are often more elegant and closer to the natural definition of the problem (e.g., computing future values by applying the growth rate one month at a time).
+
+
+4.	Analysis:
+
+Q) Discuss the time complexity of your recursive algorithm.
+=> Time Complexity:
+   The recursive algorithm makes one call per month.
+
+   For n months, the time complexity is:
+   T(n) = O(n)
+
+
+Q) Explain how to optimize the recursive solution to avoid excessive computation.
+=> By using an iterative method to calculate the future value based on growth rates, we can reduce the function stack space from O(n) to O(1). This makes the solution more efficient and is an optimized alternative to the recursive approach.
+
