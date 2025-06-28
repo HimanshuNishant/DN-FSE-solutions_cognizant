@@ -1,0 +1,34 @@
+1. Understand Asymptotic Notation:
+
+Q) Explain Big O notation and how it helps in analyzing algorithms.
+=> Big O notation is a mathematical representation used to describe the upper bound of an algorithm’s time or space complexity in terms of input size n. It helps estimate the worst-case performance, allowing comparison of algorithm efficiency regardless of hardware or exact implementation.
+
+
+
+Q) Describe the best, average, and worst-case scenarios for search operations.
+=> Linear Search:
+Best Case: O(1) → When the element is at the beginning.
+Average Case: O(n/2) ≈ O(n) → When the element is somewhere in the middle.
+Worst Case: O(n) → When the element is at the end or not present.
+
+Binary Search:
+Best Case: O(1) → When the middle element is the target.
+Average Case: O(log n) → Efficient division of the array in half each time.
+Worst Case: O(log n) → Even if the element is not found, it takes log n steps.
+
+
+4. Analysis:
+
+Q) Compare the time complexity of linear and binary search algorithms.
+=> Linear Search and Binary Search are two fundamental search algorithms, but they differ significantly in terms of time complexity and efficiency.
+Linear Search has a time complexity of O(n). This means that in the worst case, it may have to examine every element in the list to find the target value or determine that it is not present. It performs well for small or unsorted datasets, but becomes inefficient as the dataset grows.
+
+Binary Search has a time complexity of O(log n). It is much faster because it eliminates half of the remaining elements in each step. However, it requires the dataset to be sorted beforehand. For large, sorted datasets, binary search is far more efficient than linear search.
+
+
+
+Q) Discuss which algorithm is more suitable for your platform and why.
+=> Binary search is more suitable for my e-commerce platform because:
+* Search speed is critical for good user experience.
+* Data (product lists) can be easily sorted by productId.
+* Once sorted, binary search performs much faster than linear search (O(log n) vs O(n)).
